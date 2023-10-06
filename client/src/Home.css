@@ -1,0 +1,27 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Change 'height' to 'min-height' to ensure content expands as needed */
+}
+
+.home-content {
+  text-align: center;
+  background-color: #f0f0f0; /* Lighter background color */
+  padding: 30px; /* Increase padding for more spacing */
+  border-radius: 12px; /* Round corners more */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger box shadow */
+}
+
+.home-title {
+  color: #ff5733; /* Change text color to a different color */
+  font-size: 24px; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+}

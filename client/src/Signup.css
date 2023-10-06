@@ -1,0 +1,84 @@
+/* Signup.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    width: 300px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #495057; /* Dark gray text color */
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 4px;
+    transition: border-color 0.2s ease-in-out; /* Smooth transition for border color */
+  }
+  
+  .form-input:focus {
+    border-color: #007bff; /* Border color on focus */
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* Text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Smooth transition for background color */
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3; /* Button color on hover */
+  }
+  
+  .login-text {
+    margin-top: 10px;
+    text-align: center;
+    color: #6c757d; /* Gray text color */
+  }
+  
+  .link-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    border: 1px solid #007bff; /* Border color */
+    border-radius: 4px;
+    background-color: #ffffff;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Smooth transition for background and text color */
+  }
+  
+  .link-button:hover {
+    background-color: #f8f9fa; /* Button color on hover */
+    color: #0056b3; /* Text color on hover */
+  }
+  
